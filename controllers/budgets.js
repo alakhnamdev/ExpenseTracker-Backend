@@ -1,4 +1,4 @@
-const Budget = require('../models/Budget');
+const Budget = require('../models/budget');
 
 const createBudget = async (req, res) => {
   const { category, monthlyLimit } = req.body;

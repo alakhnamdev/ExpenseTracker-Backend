@@ -1,6 +1,6 @@
 const db = require('../schema/sqlite');
-const Expense = require('../models/Expense');
-const Budget = require('../models/Budget');
+const Expense = require('../models/expense');
+const Budget = require('../models/budget');
 const mongoose = require('mongoose');
 
 /**
