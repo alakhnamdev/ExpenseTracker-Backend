@@ -47,9 +47,11 @@ startReportGenerationJob();
 const HOST = process.env.HOST || '0.0.0.0';
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, HOST, () => {
-    console.log(`\nServer running on http://${HOST}:${PORT}`);
-    console.log(`Application: ${app.locals.app_name}`);
-    console.log(`Description: ${app.locals.app_description}`);
-    console.log(`Debug Mode: ${app.locals.debug}\n`);
-});
+// app.listen(PORT, HOST, () => {
+//     console.log(`\nServer running on http://${HOST}:${PORT}`);
+//     console.log(`Application: ${app.locals.app_name}`);
+//     console.log(`Description: ${app.locals.app_description}`);
+//     console.log(`Debug Mode: ${app.locals.debug}\n`);
+// });
+
+module.exports = app;
